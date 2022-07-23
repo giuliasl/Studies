@@ -1,0 +1,15 @@
+/*DIV PRINCIPAL 1*/
+.container1{
+
+    background-color: #2c163f;
+    display: flex;
+    justify-content: center;
+}
+.container1 div{
+    display: flex;
+    background-color: #dab3ff;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+}
+

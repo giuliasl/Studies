@@ -1,0 +1,25 @@
+A DIV PRINCIPAL pode ser usada para manipular as outras divs com elementos. - A manipulação dos containers fica mais fácil assim. 
+
+- Porque não manipular apenas as divs que contém os itens?
+Simples, o layout da página pode quebrar.
+
+- [.container] estamos aplicando apenas parâmetros para a div principal. 
+
+- [.container div] aplicando parâmetros para todas as tags div.
+
+- padding: adiciona um espaço interno dentro da "caixa" para todos os quatros lados.
+
+- margin: adiciona espaço externo fora da "caixa" para todos oa quatro lados.
+ 
+- [display:flax] posiciona todas as divs uma ao lado da outra. Ele permite que os elementos fiquem alinhados horizontal ou verticalmente, com ou sem espaço entre eles,de tamanho iguais ou diferente.
+Por padrão, caso a direção não seja especificada no flexbox, ela vai começar na horizontal (forma de linha, uma ao lado do outro).
+
+- [flex:1] posiciona os itens igualmente, tanto na altura e comprimento, comporta todo o tamanho disponível na tela.
+O flex pode ter várias distribuições feitas por grupos (1,2,3....etc) Por exemplo, caso haja 4 divs, e as três divs estejam em grupo de FLEX:1 o espaço entre elas será dividida igualmente. A ultima div restante, se estiver em um grupo de FLEX:3 ela ficará com o espaço dividido igualmente calculando o espaço das outras três divs, como se estivesse ocupando o espaço das três primeiras. Confuso? hahaha.
+
+- [flex-flow: direção wrap] utilizada para especificar se o navegadpr pode ou não  quebrar linhas dentro das palavras.
+
+O MAIS IMPORTANTE DE TODO FRONT-END deixar a tela centralizada hahaha
+- [justify-content:center] div centralizada \o/
+- [align-itens:center] itens centralizados
+- [flex-direction:column/row...] para direcionar a posição da div
